@@ -1,0 +1,150 @@
+    /* background-image: repeating-linear-gradient(
+    135deg,
+    #f3f3f3,
+    #f3f3f3 10px,
+    #ffffff 10px,
+    #ffffff 20px
+  );
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 50%; */
+    /* background: repeating-conic-gradient(
+    #f3f3f3 0deg 15deg,  
+    #ffffff 15deg 30deg  
+  ); */
+
+
+  :root {
+  --mypurple: rgb(223, 13, 223);
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.5;
+
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(216, 216, 216);
+    padding: 0px 20px;
+    max-width: 1155px;
+  }
+
+  main {
+    display: flex;
+  }
+
+  header, article {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px tomato;
+  }
+
+  article, header {
+    margin: 10px;
+    padding: 10px 20px; 
+    box-shadow: 3px 3px 3px rgb(168, 168, 168);
+  }
+
+  .content-box {
+    background-image: repeating-linear-gradient(
+    135deg,
+    #ececec,
+    #ececec 10px,
+    #ffffff 10px,
+    #ffffff 20px
+  );
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 30px;
+  }
+
+  .header-content-box {
+    background-image:url(images/postheader.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 50px;
+  }
+
+  header {
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-align:start;
+  }
+
+  article, header {
+    background-color: white;
+  }
+
+  a {
+    color:var(--mypurple);
+    text-wrap: nowrap;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .main-header-span {
+    color: var(--mypurple);
+  }
+
+  h1, h2, h3 {
+    color: gray;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    padding-left: 45px;
+  }
+
+  .design-link, .archive-link, .resource-link {
+    text-decoration: none;
+    font-weight: bolder;
+    border-bottom: 1px dotted gray;
+  }
+
+  .author-text {
+    border-bottom: 1px dotted gray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .archive-link, .resource-link {
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+
+  .author-text-span {
+    font-weight: bold;
+  }
+
+  #text-box-1, #text-box-3, #text-box-5 {
+    margin-left: 80px;
+  }
+
+  #text-box-2, #text-box-4 {
+    margin-right: 80px;
+  }
+
+
+
+
